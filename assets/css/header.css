@@ -1,0 +1,120 @@
+/*顶部标题*/
+
+.tit {
+    background: #aaaef3;
+    color: #57636f;
+    text-align: center;
+    position: relative;
+    height: 50px;
+}
+
+.tit .head_nav {
+    display: block;
+    width: 22px;
+    height: 16px;
+    background: url(../img/head_nav_bg.png) no-repeat;
+    background-size: 100%;
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
+
+.tit .head_nav02 {
+    display: block;
+    width: 48px;
+    height: 48px;
+    background: #62c4f2 url(../img/head_nav_bg.png) no-repeat;
+    background-size: cover;
+    position: absolute;
+    right: 0;
+    top: 1px;
+}
+
+.bg_object {
+    background: #000;
+    max-width: 640px;
+    margin: 0 auto;
+    display: none;
+    filter: alpha(opacity: 30);
+    opacity: 0.3;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 98;
+}
+
+.my_nav {
+    position: absolute;
+    top: -660px;
+    z-index: 99;
+    background: #fff;
+    padding: 10px;
+    border: 1px solid #dcdcdc;
+    border-radius: 6px;
+}
+
+.my_nav li a {
+    display: block;
+    padding: 6px 2px;
+    border-bottom: 1px solid #dcdcdc;
+    text-align: center;
+    color: #333;
+}
+
+.my_nav02 {
+    position: fixed;
+    right: 10px;
+    top: -660px;
+    z-index: 99;
+    background: #fff;
+    padding: 10px;
+    border: 1px solid #dcdcdc;
+    border-radius: 6px;
+}
+
+.my_nav02 li a {
+    display: block;
+    padding: 6px 20px;
+    border-bottom: 1px solid #dcdcdc;
+}
+
+.tit .head_goback {
+    display: block;
+    width: 48px;
+    height: 48px;
+    background: url(../img/left.png) no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    top: 1px;
+}
+
+.tit .head_my_center {
+    display: block;
+    width: 48px;
+    height: 48px;
+    background: #62c4f2 url(../img/my_center.png) no-repeat;
+    background-size: cover;
+    position: absolute;
+    right: 0;
+    top: 0px;
+}
+
+.tit h5 {
+    font-size: 16px;
+    height: 50px;
+    line-height: 50px;
+    margin: 0;
+    font-weight: normal;
+}
+
+.same640 {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 640px;
+    min-width: 320px;
+}
